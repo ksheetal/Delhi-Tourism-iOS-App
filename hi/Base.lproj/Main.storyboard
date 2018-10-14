@@ -73,7 +73,7 @@
                                 <color key="highlightedColor" red="0.24663064330000001" green="0.31792692639999998" blue="0.6878569162" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UnA-eC-wDq">
-                                <rect key="frame" x="16" y="359" width="343" height="91"/>
+                                <rect key="frame" x="16" y="370" width="343" height="91"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <string key="text">Explore best food outlets of delhi. Although there are shaded areas in the complex but it is always good to carry sunscreen or sunglasses especially during summer.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -157,7 +157,7 @@
                                 <state key="normal" title="Login"/>
                                 <connections>
                                     <action selector="LoginButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j73-k0-0M8"/>
-                                    <segue destination="haB-0l-gse" kind="show" id="fcc-QK-O84"/>
+                                    <segue destination="GvL-yf-Iox" kind="show" id="8Ti-7x-GLZ"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Password" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xy4-of-dhB">
@@ -317,6 +317,7 @@
         <image name="introtwo.png" width="900" height="980"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="8Ti-7x-GLZ"/>
         <segue reference="k9u-ZQ-w78"/>
     </inferredMetricsTieBreakers>
 </document>
